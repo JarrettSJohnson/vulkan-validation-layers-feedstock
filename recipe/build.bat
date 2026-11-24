@@ -2,6 +2,7 @@ mkdir build
 cd build
 
 cmake ^
+    %CMAKE_ARGS% ^
     -G "Ninja" ^
     -D UPDATE_DEPS=ON ^
     -DCMAKE_INSTALL_PREFIX=%LIBRARY_PREFIX% ^
